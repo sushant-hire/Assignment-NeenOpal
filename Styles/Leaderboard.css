@@ -1,0 +1,151 @@
+.LeaderBoardSectionContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.LeaderboardData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.LeaderboardData h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #c83b53;
+  text-align: center;
+}
+.LeaderboardData p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5e6265;
+  text-align: center;
+  margin-top: 3px;
+}
+.AchievementData {
+  padding: 40px 20px 0px 30px;
+}
+.AchievementData .AchievementTopSection {
+  display: flex;
+  justify-content: space-between;
+}
+.AchievementTopSection h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #979797;
+}
+.AchievementTopSection h3 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #000;
+  margin: 3px 0px;
+}
+.AchievementTopSection p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5e6265;
+}
+.GroupDivision .SubGroupDivision {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.GroupDivision {
+  margin-top: 26px;
+  display: flex;
+  gap: 11px;
+}
+.GroupDivision p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5e6265;
+}
+.Chart {
+  width: -webkit-fill-available;
+}
+.Chart img {
+  width: 100%;
+}
+.customer-profile {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.customer-profile h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.SpanColour {
+  color: #c83b53;
+}
+.Comparison {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1.25px;
+  color: #c83b53;
+}
+
+.Tab {
+  overflow: hidden;
+  background: #f9c6cf;
+}
+
+.Tab button {
+  float: left;
+  background: #f9c6cf;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.TabData {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.TabContent {
+  margin-top: 15px;
+  display: flex;
+}
+.TabContent img {
+  width: 47px;
+  margin-right: 25px;
+  margin-bottom: 18px;
+  position: relative;
+  left: 5px;
+}
+.TabContent .about_person {
+  width: 200px;
+  margin-right: 50px;
+}
+.TabContent .about_person h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+.TabContent .about_person span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.TabContent .about_person p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 5px;
+}
+.TabContent p {
+  color: #c83b53;
+}
+hr {
+  height: 0px !important;
+  border: 0.1px solid rgba(228, 202, 207, 0.5);
+}

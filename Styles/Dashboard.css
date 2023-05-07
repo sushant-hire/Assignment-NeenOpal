@@ -1,0 +1,111 @@
+.Sales {
+  margin-top: 3px;
+  padding: 8px 19px 0px 19px;
+}
+.Sales .CurrentSales {
+  font-weight: 400;
+  font-size: 18px;
+  color: #979797;
+}
+.Sales h1 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #000;
+  margin: 3px 0px;
+}
+.Money {
+  color: #c83b53;
+}
+.Comparison {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5e6265;
+}
+.GroupedItems,
+.GroupedItems .Item {
+  display: flex;
+  align-items: center;
+}
+.GroupedItems {
+  margin-top: 26px;
+  gap: 22px;
+}
+.GroupedItems .Item {
+  gap: 8px;
+}
+.GroupedItems .Item p {
+  font-weight: 400;
+  font-size: 11px;
+  color: #5e6265;
+}
+.Chart {
+  padding-top: 31px;
+}
+.Chart img {
+  width: 100%;
+  object-fit: cover;
+}
+.ContactCollection {
+  padding: 43px 32px;
+}
+.ContactCollection .ContactInformation {
+  display: grid;
+  place-content: center;
+}
+.ContactInformation h5 {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #979797;
+  text-align: center;
+}
+.ContactInformation h6 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #000000;
+  text-align: center;
+}
+.ContactInformation p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5e6265;
+  text-align: center;
+}
+.ContentDisplay {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+.ContentDisplay .Content {
+  margin-top: 25px;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+
+}
+.Content h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+.Content p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e6265;
+}
+.Content .ImageContainer img {
+  width: 24px;
+}
+.Content .ImageContainer {
+  height: 40px;
+  background: #f4f4f4;
+  border-radius: 3px;
+  display: grid;
+  place-content: center;
+  margin-right: 15px;
+}
+.Intersection {
+  margin-left: 40px;
+}
